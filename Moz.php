@@ -1,18 +1,18 @@
 <?php
 
-/** Moz API v2 Library
+/** Moz API v2 - PHP Library
  *  ================================================================================
  *  PHP library to wrap the moz v2 api in PHP. All functions described at request a bunch of SEO-relevant metrics, such as looking up the
  *  visibilty of a URL within organic search results, Pagespeed analysis, the
  *  Google Toolbar PageRank, Page-Authority, Backlink-Details, Traffic Statistics,
  *  social media relevance, comparing competing websites and a lot more.
  *  ================================================================================
- *  @package     MozAPIv2
+ *  @package     MozAPIv2-PHP
  *  @author      Rick Simnett <rick@mediagiantdesign.com>
  *  @copyright   Copyright (c) 2020 - present Rick Simnett
- *  @license     http://eyecatchup.mit-license.org
+ *  @license     http://mit-license.org
  *  @version     1.0
- *  @link        https://github.com/eyecatchup/SEOstats/
+ *  @link        https://github.com/media-giant-design/mozapiv2/
  *  @website     https://www.mediagiantdesign.com/
  *  ================================================================================
  *  LICENSE: Permission is hereby granted, free of charge, to any person obtaining
