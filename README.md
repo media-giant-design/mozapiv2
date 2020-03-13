@@ -30,7 +30,7 @@ Retrieve an access_id and secret from Moz.com. If you dont' have one you can sig
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'Moz' . DIRECTORY_SEPARATOR . 'Moz.php';
 
 //initialize the library
-$moz = new Moz(access_id,secret);
+$moz = new Moz(your_access_id,your_secret);
 
 //query some data
 $result = $moz->urlMetrics("https://www.mediagiantdesign.com/");
