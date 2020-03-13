@@ -38,7 +38,7 @@ $result = $moz->urlMetrics("https://www.mediagiantdesign.com/");
 //dump the result 
 var_dump($result);
 ```
-More detailed examples can be found here <a href="https://www.mediagiantdesign.com/documentation/moz-api-v2-php-library/">Moz API v2 Libaray for PHP</a>.
+More detailed examples can be found here <a href="https://www.mediagiantdesign.com/documentation/moz-api-v2-php-library/">Moz API v2 Library for PHP</a>.
 
 <hr>
 
