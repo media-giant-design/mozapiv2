@@ -2,7 +2,7 @@
 
 MozAPIV2-PHP is an open source PHP library to get query data out of Moz's API v2. 
 
-MozAPIV2-PHP is used to retrieve information out of Moz's API such as Anchor Text Metrics, Final Redirect, Global Top Pages, Blobal Top Root Domains, Index Meta Data, Link Intersects, Link Status, Linking Root Domains, Link Metrics, Top Pages Metrics, URL Metrics and Usage data from over 36.5 Trillion different links.
+MozAPIV2-PHP is used to retrieve information out of Moz's API such as Anchor Text Metrics, Final Redirect, Global Top Pages, Global Top Root Domains, Index Meta Data, Link Intersects, Link Status, Linking Root Domains, Link Metrics, Top Pages Metrics, URL Metrics and Usage Data from over 36.5 Trillion different links.
 
 This library is for anyone that is looking to build an SEO tool set for any purpose.
 
