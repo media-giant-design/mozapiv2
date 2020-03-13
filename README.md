@@ -20,22 +20,22 @@ Retrieve an access_id and secret from Moz.com. If you dont' have one you can sig
 
 ### Table of Contents
 
-* <a href='#configuration'>Configuration</a>
+* <a href='#configuration'>Brief Example of Use</a>
 <hr>
-
-### Configuration
-require_once(path to your class folder . "/Moz.php");
 
 ### Brief Example of Use
 ```php
 <?php
-// Depending on your projects docroot
-#require_once __DIR__ . DIRECTORY_SEPARATOR . 'Moz' . DIRECTORY_SEPARATOR . 'Moz.php';
+// This require_once will vary depending on your php applications specific directory structure
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'Moz' . DIRECTORY_SEPARATOR . 'Moz.php';
 
+//initialize the library
 $moz = new Moz(access_id,secret);
 
+//query some data
 $result = $moz->urlMetrics("https://www.mediagiantdesign.com/");
 
+//dump the result 
 var_dump($result);
 ```
 More detailed examples can be found here <a href="https://www.mediagiantdesign.com/docs/mozapiv2-php">Moz API v2 Libaray for PHP</a>.
