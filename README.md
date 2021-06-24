@@ -33,7 +33,7 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'Moz' . DIRECTORY_SEPARATOR . 'Moz.
 $moz = new Moz(your_access_id,your_secret);
 
 //query some data
-$result = $moz->urlMetrics("https://www.mediagiantdesign.com/");
+$result = $moz->urlMetrics(["https://www.mediagiantdesign.com/"]);
 
 //dump the result 
 var_dump($result);
